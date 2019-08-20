@@ -1,0 +1,9 @@
+{% for bucketname in buckets %}
+ 
+{
+  "Type" : "AWS::S3::Bucket",
+  "Properties" : {
+      "BucketName" : { "Ref": bucketname }
+    }
+}
+{% endfor %}

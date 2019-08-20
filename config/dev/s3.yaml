@@ -1,0 +1,9 @@
+template_path: s3.j2
+parameters:
+  buckets:
+    - bucketname: 'ingest-demo-red'
+      tags:
+        Description: "Injest Demo Red Bucket"
+    - bucketname: 'ingest-demo-blue'
+      tags:
+        Description: "Injest Demo Blue Bucket"  
